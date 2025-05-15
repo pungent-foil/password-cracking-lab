@@ -9,7 +9,7 @@ Crack a set of sample MD5 hashed passwords using John the Ripper and the rockyou
 
 ## Steps Taken 
 
-1. Created a file [hashes.txt](screenshots/hashes.txt) with three MD5 hashed passwords.
+1. Created a file [hashes.txt](password-cracking-lab/hashes.txt) with three MD5 hashed passwords.
 2. Used 'hash-identifier' to confirm the hash type as MD5.
 3. Ran John the Ripper with the rockyou.txt wordlist to crack the hashes:
 
@@ -22,7 +22,7 @@ john --format=raw-md5 --wordlist=/usr/share/wordlists/rockyou.txt hashes.txt
 - Succesfully identified the hash type as Raw-MD5 using John the Ripper's auto-detection and hash identifiers.
 - Cracked 3 password hashes from the provided hashes.txt file using the rockyou.txt wordlist:
 
-  💠 [cracked.txt](screenshots/cracked.txt)
+  💠 [cracked.txt](password-cracking-lab/cracked.txt)
 
 - The cracking process completed within seconds, demonstrating the weakness of common and simple passwords.
 - This highlights the critical need for strong, complex passwords and proper hashing algorithms. 
