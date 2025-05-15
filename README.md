@@ -22,7 +22,9 @@ john --format=raw-md5 --wordlist=/usr/share/wordlists/rockyou.txt hashes.txt
 - Succesfully identified the hash type as Raw-MD5 using John the Ripper's auto-detection and hash identifiers.
 - Cracked 3 password hashes from the provided hashes.txt file using the rockyou.txt wordlist:
   💠 Password
+
   💠 123
+
   💠 admin
 
 - The cracking process completed within seconds, demonstrating the weakness of common and simple passwords.
